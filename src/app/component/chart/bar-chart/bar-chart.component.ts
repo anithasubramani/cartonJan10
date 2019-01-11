@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-bar-chart',
   templateUrl: './bar-chart.component.html',
@@ -10,6 +12,7 @@ export class BarChartComponent {
   data: any;
   
   constructor() {
+
       this.data = {
           labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
           datasets: [
